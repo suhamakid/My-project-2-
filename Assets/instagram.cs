@@ -6,6 +6,6 @@ public class URL : MonoBehaviour
 {
     public void onClick()
     {
-        Application.OpenURL("https://www.instagram.com/whizchillhouse/");
+        Application.OpenURL("https://www.instagram.com/whizchillhouse/");//""の中には開きたいWebページのURLを入力します
     }
 }
