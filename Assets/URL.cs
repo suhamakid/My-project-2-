@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    public class URL : MonoBehaviour
+    public class AccessWeb : MonoBehaviour
     {
-        public void onClick()
+        public void clickPhoto()
         {
-            Application.OpenURL("https://www.instagram.com/whizchillhouse/?hl=ja");
+            Application.OpenURL("https://www.instagram.com/whizchillhouse/");
         }
     }
     // Start is called before the first frame update
